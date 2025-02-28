@@ -12,3 +12,11 @@ func main() {
 	flag.Parse()	
 	log.Fatal(src.Run())
 }
+
+func init() {
+	log.SetFlags(log.Lshortfile)
+}
+
+func jj() {
+	log.Println("jj")
+}
